@@ -41,3 +41,43 @@ h1 {
   background-color: rgba(128, 0, 0, 0.368);
   z-index: 0;
 }
+
+#whatsapp {
+  background-color: rgb(22, 194, 22);
+  color: white;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 10px;
+}
+section {
+  min-height: 200px;
+}
+.discover-unicamp {
+  display: flex;
+  padding: 30px 70px;
+}
+.discover-unicamp > div {
+  width: 50%;
+}
+.discover-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+.discover-text {
+  padding: 20px;
+}
+.discover-text a {
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+}
+.get-started {
+  background-color: maroon;
+  color: white;
+}
