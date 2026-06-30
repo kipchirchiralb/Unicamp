@@ -77,7 +77,82 @@ section {
   color: white;
   padding: 10px;
 }
+
 .get-started {
   background-color: maroon;
   color: white;
+  text-align: center;
+  padding: 30px 70px;
+}
+
+.get-started .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.get-started hr {
+  width: 40px;
+}
+.links .cta {
+  background-color: white;
+  color: maroon;
+  padding: 12px 22px;
+}
+
+.student-stories {
+  padding: 30px 70px;
+}
+.stories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stories-header .cta {
+  background-color: maroon;
+  color: white;
+  padding: 12px 22px;
+}
+.stories-content {
+  display: flex;
+}
+.stories-image {
+  flex: 1;
+}
+.stories-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.stories-text {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .discover-unicamp {
+    flex-direction: column-reverse;
+    padding: 15px 25px;
+  }
+  .discover-unicamp > div {
+    width: 100%;
+  }
+  .hero-bg-container {
+    padding: 15px 25px;
+  }
+  .get-started {
+    padding: 15px 25px;
+  }
+  .get-started .links {
+    flex-direction: column;
+  }
+  .student-stories {
+    padding: 15px 25px;
+  }
+  .stories-content {
+    flex-direction: column;
+  }
 }
